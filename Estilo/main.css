@@ -1,9 +1,5 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 html{
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -73,10 +69,18 @@ main section img{
 main .cont-text h1{
     font-family: 'Montserrat', sans-serif;
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 main .cont-text h2{
 font-family: 'Poppins', sans-serif;
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main .cont-parrafo p{
@@ -84,6 +88,15 @@ main .cont-parrafo p{
     border: rgb(0, 0, 0) solid 1px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.formulario{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -213,12 +226,20 @@ nav .navbar-nav{
             display: flex;
             margin-top: 40px;
             margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .marcas2{
             text-align: right;
             padding-right: 50px;
             padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .button{
@@ -226,6 +247,11 @@ nav .navbar-nav{
             font-size: 15px;
             padding: 5px;
             margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
         }
 
         .contener{
@@ -246,6 +272,15 @@ nav .navbar-nav{
             flex-direction: row;
             margin-right: px;
         }
+
+        .formulario{
+            font-family: 'Montserrat', sans-serif;
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     
 }
     
@@ -263,12 +298,20 @@ footer .contacto1 .email{
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .marcas2{
     text-align: right;
     padding-right: 100px;
     padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 }
@@ -285,6 +328,11 @@ button{
     font-size: 20px;
     padding: 10px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 

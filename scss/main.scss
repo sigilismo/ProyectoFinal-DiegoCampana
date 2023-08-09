@@ -1,22 +1,6 @@
-/*estilos generales */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-body{
-    background-color: rgb(154, 194, 232);
-}
-
-
-a{
-    text-decoration: none;
-    color: #0b365b;
-}
-
 
 @import "./html/footer";
 @import "./html/header";
 @import "./html/index";
+@import "./html/marcas";
+@import "./html/formulario";
